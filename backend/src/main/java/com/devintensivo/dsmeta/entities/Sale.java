@@ -1,6 +1,7 @@
 package com.devintensivo.dsmeta.entities;
 
 import java.time.LocalDate;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -19,9 +20,8 @@ public class Sale {
 	private Integer deals;
 	private Double amount;
 	private LocalDate date;
-
+	
 	public Sale() {
-
 	}
 
 	public Long getId() {
@@ -71,5 +71,4 @@ public class Sale {
 	public void setDate(LocalDate date) {
 		this.date = date;
 	}
-
 }
